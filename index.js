@@ -3,11 +3,11 @@ var kittens = ["Milo", "Otis", "Garfield"]
 
 
 function destructivelyAppendKitten(name) {
-  push.kittens("Ralph")
+  kittens.push("Ralph")
   return kittens
 }
 
 function destructivelyPrependKitten(name) {
-  unshift.kittens("Bob")
+  kittens.unshift("Bob")
   return kittens
 }
